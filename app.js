@@ -26,6 +26,7 @@ $(function() {
         mode: CryptoJS.mode.ECB,
         padding: CryptoJS.pad.Pkcs7
     });
+    console.log(decrypted);
     // return decrypted.toString(CryptoJS.enc.Utf8);
     
     // // あからじめ仕込んでおいた暗号化データのカンマ","を使って文字列をそれぞれに分割
